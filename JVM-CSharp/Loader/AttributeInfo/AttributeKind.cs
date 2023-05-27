@@ -1,0 +1,29 @@
+﻿namespace JvmSharp.Loader.AttributeInfo
+{
+    internal enum AttributeKind
+    { 
+        ConstantValue,
+        Code,
+        StackMapTable,
+        Exceptions,
+        InnerClasses,
+        EnclosingMethod,
+        Synthetic,
+        Signature,
+        SourceFile,
+        SourceDebugExtension,
+        LineNumberTable,
+        LocalVariableTable,
+        LocalVariableTypeTable,
+        Deprecated,
+        RuntimeVisibleAnnotations,
+        RuntimeInvisibleAnnotations,
+        RuntimeVisibleParameterAnnotations,
+        RuntimeInvisibleParameterAnnotations,
+        RuntimeVisibleTypeAnnotations,
+        RuntimeInvisibleTypeAnnotations,
+        AnnotationDefault,
+        BootstrapMethods,
+        MethodParameters,
+    }
+}
